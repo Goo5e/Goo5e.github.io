@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" href="CSS.css">
+    <title>CPU VS GPU</title>
+</head>
+ <body>
+        <header>
+           <img src="ciruit.jpg">
+            <nav>
+                <ul>
+                    <li><a href="CPU vs GPU.html">GPU basics</a></li>
+                    <li><a href="PG2.html">Other uses for GPUs</a></li>
+                    <li><a href="Parallel.html">Parallel Systems</a></li>
+                    <li><a href="Multicore.html">Multicore Computing</a></li>
+                    <li><a href="Sources.html">Sources</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+          <h1>The Basics of GPU Usage</h1>  
+		  <h2>Classically the purpose of a GPU (graphics processing unit) was how it sounds, a GPU was  used by a computer for rendering 3D graphics more efficiently than a CPU (central processing unit) would. This is because the rendering of 3D graphics entails performing many simple calculations: such as floating-point arithmetic, matrix calculations, and RGB colour calculation, most of which can be done independently of each other (in parallel). The calculations can be performed at the same time to give the same result as performing them in series, so GPUs have thousands of cores all that can simultaneously perform the required calculations as opposed to the single-digit number of cores a CPU will likely have, vastly outclassing the latter in 3D graphics task. However, each core in a GPU will be significantly slower than a CPU’s core so a GPU will be much slower than a CPU for any task that can not be run in parallel.</h2>
+		<img class="img1" src="gpuvscpu.png" height = "50%" width = "50%" >
+        </main>
+    </body>
+
+</html>
